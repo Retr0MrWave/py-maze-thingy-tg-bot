@@ -226,15 +226,15 @@ def generateMaze(height, width):
 				maze[i][j] = 'w'
 
 	# Set entrance and exit
-	for i in range(0, width):
-		if (maze[1][i] == 'c'):
-			maze[0][i] = 'c'
-			break
+	# for i in range(0, width):
+	# 	if (maze[1][i] == 'c'):
+	# 		maze[0][i] = 'c'
+	# 		break
 
-	for i in range(width-1, 0, -1):
-		if (maze[height-2][i] == 'c'):
-			maze[height-1][i] = 'c'
-			break
+	# for i in range(width-1, 0, -1):
+	# 	if (maze[height-2][i] == 'c'):
+	# 		maze[height-1][i] = 'c'
+	# 		break
 	return maze
 
 # Print final maze
